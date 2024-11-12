@@ -31,7 +31,6 @@ function App() {
       {
         name: inputValue,
         done: false,
-        delete: false,
         id: prevTask.length + 1,
       },
       ...prevTask,
