@@ -48,7 +48,7 @@ function App() {
         <div className="bg-gray-800 text-white border w-full max-w-md p-6 rounded-lg shadow-lg">
           <div className="flex flex-row justify-between items-center mb-4">
             <div>
-              <h1 className="font-bold text-3xl mb-2">To do</h1>
+              <h1 className="font-bold text-3xl mb-2">Do zrobienia</h1>
               {tasks.length === 0 ? (
                 <h2 className="text-gray-400">Brak zadań</h2>
               ) : (
